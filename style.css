@@ -1,12 +1,12 @@
 html {
   margin: 0;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
 }
 body {
   margin: 0;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -16,6 +16,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Hanken Grotesk", sans-serif;
 }
 
 .result {
@@ -24,10 +25,10 @@ body {
   justify-content: space-between;
   align-items: center;
   background-image: linear-gradient(#7857ff, #2e2be9);
-  width: 50%;
-  height: 130%;
-  border-radius: 8%;
-  padding: 10%;
+  width: 15em;
+  height: 27em;
+  border-radius: 3em;
+  padding: 2.6em;
 }
 .summary {
   display: flex;
@@ -35,21 +36,81 @@ body {
   justify-content: space-between;
   align-items: start;
   background-color: white;
-  width: 50%;
-  height: 130%;
-  border-radius: 8%;
-  padding: 10%;
+  width: 15em;
+  height: 27em;
+  border-radius: 3em;
+  padding: 2.6em;
 }
 .circle {
   display: flex;
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(#4e21ca, #2421ca00);
-  height: 50%;
-  width: 85%;
+  height: 8em;
+  width: 8em;
   border-radius: 50%;
+  padding: 1em;
 }
 
 .attribution {
   margin-top: 6rem;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 16em;
+  height: 3em;
+  border-radius: 0.6em;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 12.5%;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid;
+  border-radius: 5em;
+  background-color: #303b5a;
+  color: white;
+}
+
+.icon-text-space {
+  display: flex;
+  width: 100%;
+  flex-basis: 100px;
+}
+.red {
+  color: hsl(0, 100%, 67%);
+}
+.red-box {
+  background-color: hsla(0, 100%, 67%, 0.07);
+}
+.yellow {
+  color: hsl(39, 100%, 56%);
+}
+.yellow-box {
+  background-color: hsla(39, 100%, 56%, 0.07);
+}
+.teal {
+  color: hsl(166, 100%, 37%);
+}
+.teal-box {
+  background-color: hsla(166, 100%, 37%, 0.07);
+}
+.blue {
+  color: hsl(234, 85%, 45%);
+}
+.blue-box {
+  background-color: hsla(234, 85%, 45%, 0.07);
 }

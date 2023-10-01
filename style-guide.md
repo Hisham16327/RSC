@@ -11,10 +11,10 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Light red: hsl(0, 100%, 67%)
-- Orangey yellow: hsl(39, 100%, 56%)
-- Green teal: hsl(166, 100%, 37%)
-- Cobalt blue: hsl(234, 85%, 45%)
+- Light red: hsl(0, 100.00%, 67.10%)
+- Orangey yellow: hsl(39, 100.00%, 56.10%)
+- Green teal: hsl(166, 100.00%, 37.10%)
+- Cobalt blue: hsl(234, 85.20%, 44.90%)
 
 ## Gradients
 
@@ -26,10 +26,10 @@ The designs were created to the following widths:
 
 ### Neutral
 
-- White: hsl(0, 0%, 100%)
-- Pale blue: hsl(221, 100%, 96%)
-- Light lavender: hsl(241, 100%, 89%)
-- Dark gray blue: hsl(224, 30%, 27%)
+- White: #ffffff
+- Pale blue: #ebf1ff
+- Light lavender: #c8c7ff
+- Dark gray blue: #303b5a
 
 ### Notes
 
