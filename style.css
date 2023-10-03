@@ -17,6 +17,8 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "Hanken Grotesk", sans-serif;
+  height: 80%;
+  width: 80%;
 }
 
 .result {
@@ -36,7 +38,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: start;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   width: 15em;
   height: 25em;
   border-radius: 2.5em;
@@ -151,4 +153,11 @@ body {
 }
 #result {
   color: white;
+}
+
+@media (max-width: 600px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
 }
