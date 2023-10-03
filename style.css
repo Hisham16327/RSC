@@ -1,6 +1,6 @@
 html {
   margin: 0;
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
 }
 body {
@@ -26,9 +26,10 @@ body {
   align-items: center;
   background-image: linear-gradient(#7857ff, #2e2be9);
   width: 15em;
-  height: 27em;
-  border-radius: 3em;
+  height: 25em;
+  border-radius: 2.5em;
   padding: 2.6em;
+  color: white;
 }
 .summary {
   display: flex;
@@ -37,8 +38,8 @@ body {
   align-items: start;
   background-color: white;
   width: 15em;
-  height: 27em;
-  border-radius: 3em;
+  height: 25em;
+  border-radius: 2.5em;
   padding: 2.6em;
 }
 .circle {
@@ -50,6 +51,19 @@ body {
   width: 8em;
   border-radius: 50%;
   padding: 1em;
+}
+
+.circle > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circle > div > h3 {
+  color: #ffffff;
+  font-size: 3.5rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .attribution {
@@ -88,7 +102,7 @@ body {
 .icon-text-space {
   display: flex;
   width: 100%;
-  flex-basis: 100px;
+  flex-basis: 50px;
 }
 .red {
   color: hsl(0, 100%, 67%);
@@ -113,4 +127,28 @@ body {
 }
 .blue-box {
   background-color: hsla(234, 85%, 45%, 0.07);
+}
+.number-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.number-container .number-1 {
+  color: #303b5a;
+}
+.number-container .number-2 {
+  color: #9898b9;
+}
+#great-heading > h2 {
+  color: white;
+  margin: 0;
+}
+#great-desc > p {
+  color: white;
+  margin: 0;
+  text-align: center;
+  font-weight: 300;
+}
+#result {
+  color: white;
 }
