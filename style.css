@@ -160,15 +160,15 @@ body {
   html {
     margin: 0 auto;
     gap: 0;
-    height: 100vh;
-    width: 100vw;
+    height: auto;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
   }
   .wrapper {
     display: flex;
-    width: 100vw;
+    width: 100%;
     flex-direction: column;
     justify-content: flex-start;
     overflow: auto;
@@ -178,15 +178,28 @@ body {
   }
   .result {
     padding: 1.5em;
-    width: auto;
     height: auto;
+    width: auto;
     font-size: medium;
   }
   .summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 0.5em;
-    height: 100vh;
-    width: auto;
+    height: 75vh;
+    width: 20em;
     font-size: medium;
+  }
+  .stats {
+    display: flex;
+    width: 20em;
+  }
+  .summary-heading {
+    display: flex;
+    width: 13.5em;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
   .button:hover {
     background-image: linear-gradient(#7857ff, #2e2be9);
