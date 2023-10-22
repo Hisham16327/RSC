@@ -67,9 +67,7 @@ body {
 }
 
 .attribution {
-  margin-top: 6rem;
-}
-.attribution {
+  margin-top: 6em;
   font-size: 11px;
   text-align: center;
 }
@@ -181,15 +179,17 @@ body {
     height: auto;
     width: auto;
     font-size: medium;
+    border-radius: 0 0 2.5em 2.5em;
   }
   .summary {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0.5em;
-    height: 75vh;
+    height: auto;
     width: 20em;
     font-size: medium;
+    gap: 1.5em;
   }
   .stats {
     display: flex;
@@ -203,5 +203,13 @@ body {
   }
   .button:hover {
     background-image: linear-gradient(#7857ff, #2e2be9);
+  }
+  .icon-text-space {
+    display: flex;
+    width: 100%;
+    flex-basis: 160px;
+  }
+  .attribution {
+    margin: 10px;
   }
 }
